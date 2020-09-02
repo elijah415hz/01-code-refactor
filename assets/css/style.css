@@ -41,7 +41,7 @@ h3 {
     color: #d9dcd6;
 }
 
-.links {
+nav {
     /* margins and padding */
     padding-top: 15px;
     margin-right: 20px;
@@ -55,9 +55,12 @@ h3 {
 
 }
 
-.links ul li {
-    display: inline-block;
+nav ul li {
+    /* margins */
     margin-left: 25px;
+
+    /* display list on one line */
+    display: inline-block;
 }
 
 a {
