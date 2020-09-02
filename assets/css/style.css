@@ -22,7 +22,7 @@ h1 {
 
 h2 {
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 20px;
 }
 
 h3 {
@@ -125,4 +125,9 @@ footer {
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+}
+
+footer h2 {
+    margin-bottom: 0px;
+    font-size: 20px;
 }
