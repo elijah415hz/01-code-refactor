@@ -1,5 +1,5 @@
 * {
-    /* set border-box and remove all padding and margins */
+    /* Box-Model */
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -7,17 +7,20 @@
 
 
 body {
+    /* visual */
     background-color: #d9dcd6;
 }
 
 header {
-    /* positioning */
+    /* Box-Model */
     padding: 20px;
     
     /* typeography*/
-    background-color: #2a607c;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #ffffff;
+    
+    /* visual */
+    background-color: #2a607c;
 }
 
 h1 {
@@ -50,8 +53,10 @@ h3 {
 }
 
 nav {
-    /* positioning */
+    /* Box-Model */
     padding-top: 15px;
+    
+    /* positioning */
     margin-right: 20px;
     float: right;
     
@@ -111,18 +116,22 @@ main {
 }
 
 .services {
+    /* Box-Model */
+    padding: 50px;
+    
     /* positioning */
     margin-bottom: 20px;
-    padding: 50px;
     
     /* dynamically change the height */
     height: auto;
     overflow: auto;
 
     /* typography */
-    background-color: #0072bb;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #ffffff;
+    
+    /* visual */
+    background-color: #0072bb;
 }
 
 .services img {
@@ -139,15 +148,17 @@ main {
     height: 100%;
     
     /* typography */
-    background-color: #2589bd;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    /* visual */
+    background-color: #2589bd;
 }
 
 .benefits {
     /* positioning */
     margin-bottom: 32px;
     
-    /* typography */
+    /* visual */
     color: #ffffff;
 }
 
@@ -161,8 +172,10 @@ main {
 
 
 footer {
-    /* positioning */
+    /* Box-Model */
     padding: 30px;
+    
+    /* positioning */
     clear: both;
     
     /* typography */
