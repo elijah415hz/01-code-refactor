@@ -1,7 +1,7 @@
 # 01 Homework assignment: Code Refactor
 
 I have refactored the html and css of this website in order to conform to best practices of accessibilty and readability of code.
-This was accomplished primarily by consilidating css selectors and properties, converting generic html tags to semantic tags, adding alt attributes to images, and commenting the code for clarity.
+This was accomplished primarily by consilidating css selectors and properties, converting generic html tags to semantic tags, adding alt attributes to images, and commenting the code for clarity. I also fixed a content overflow issue in the 'Online Reputation Management' section.
 
 ## Assignment from the client:
 ### User Story
