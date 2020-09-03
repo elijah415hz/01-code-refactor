@@ -66,6 +66,12 @@ nav {
 
 }
 
+
+header nav ul {
+    list-style-type: none;
+}
+
+
 nav ul li {
     /* positioning */
     margin-left: 25px;
